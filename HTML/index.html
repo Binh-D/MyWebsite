@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html ng-controller="globalCtl" lang="en">
+<head>
+    <title  ng-bind="seo.getTitle()">Yến sào Khánh Hòa</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Yến sào Khánh Hòa nguồn bổ dưỡng thiên nhiên diệu kỳ. Công ty là nhà khai thác chuyên nghiệp trực tiếp sản xuất các mặt hàng yến đảo thiên nhiên nguyên chất, yến đảo thiên nhiên tinh chế, Sanest, Sanest Foods, Sanna,... ">
+    <meta name="keywords" content="yến sào, yến sào khánh hòa, sanest, sanna, sanest foods, mua yến sào, yến sào chất lượng cao, du lịch, nhà hàng, khách sạn">
+    <meta property="og:title" 
+	content="Công ty TNHH nhà nước một thành viên Yến sào Khánh Hòa">
+	<meta property="og:image"
+    content="/img/Slide/A1_new.jpg">
+	<meta property="og:image:secure_url"
+    content="/img/Slide/A1_new.jpg">
+		
+	<meta property="og:description" 
+	content="Yến sào Khánh Hòa nguồn bổ dưỡng thiên nhiên diệu kỳ. Công ty là nhà khai thác chuyên nghiệp trực tiếp sản xuất các mặt hàng yến đảo thiên nhiên nguyên chất, yến đảo thiên nhiên tinh chế, Sanest, Sanest Foods, Sanna,... ">
+	<script type="application/ld+json">{
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+    "@id":"https://yensaokhanhhoa.com.vn/",
+        "url": "https://yensaokhanhhoa.com.vn/",
+        "logo": {
+          "@type": "ImageObject",
+          "url":"https://www.yensaokhanhhoa.com.vn/images/logo.png",
+          "width":{
+            "@type":"QuantitativeValue",
+            "Value":160
+            },
+          "height":{
+            "@type":"QuantitativeValue",
+            "Value":160
+            }
+        },
+        "image":"https://www.yensaokhanhhoa.com.vn/images/logo.png",
+        "hasMap": "https://www.google.com/maps/place/C%C3%B4ng+ty+TNHH+NN+MTV+Y%E1%BA%BFn+S%C3%A0o+Kh%C3%A1nh+H%C3%B2a+248+Th%E1%BB%91ng+Nh%E1%BA%A5t/@12.2502799,109.1752034,15z/data=!4m6!3m5!1s0x0:0x78e0aab9d3626a24!8m2!3d12.2502787!4d109.1839593!15sChp5w6rMgW4gc2HMgG8ga2hhzIFuaCBob8yAYSIDiAEBkgEQY29ycG9yYXRlX29mZmljZQ?ucbcb=1",	
+        "email": "mailto:yensaokh@yensaokhanhhoa.com.vn",
+        "founder": "Nguyễn Anh Hùng",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Thành phố Nha Trang",
+            "addressCountry": "VIỆT NAM",
+            "addressRegion": "Khánh Hòa",
+            "postalCode":"650000",
+            "streetAddress": "248 Thống Nhất, Phương sơn, Thành phố Nha Trang, Khánh Hòa 650000, Việt Nam"
+        },
+        "description": "Công ty là nhà khai thác chuyên nghiệp trực tiếp sản xuất các mặt hàng yến đảo thiên nhiên nguyên chất, yến đảo thiên nhiên tinh chế, Sanest, Sanest Foods, Sanna,...",
+        "name": "Công ty TNHH nhà nước MTV Yến Sào Khánh Hòa 248 Thống Nhất",
+        "telephone": "02583822472",
+        "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "07:00",
+        "closes": "17:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Saturday"
+        ],
+        "opens": "07:00",
+        "closes": "17:00"
+      }
+    ],
+        "geo": {
+            "@type": "GeoCoordinates",
+        "latitude": "12.2504335",
+            "longitude": "109.1841743"
+            }, 			
+             "potentialAction": {
+        "@type": "ReserveAction",
+        "target": {
+          "@type": "EntryPoint",	
+        </script>
+    <title>Đặc sản Khánh Hoà</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #7abce668;
+            color: #0c0303;
+            margin: 0;
+            padding: 0;
+        }
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;    
+        }
+        .content {
+            padding: 20px;
+            background-color: white;
+            color: black;
+            text-align: left;  
+        }
+        .province h3 {
+            color: #DC143C;
+            text-align: left;    
+        }
+        .province p {
+            color: #555;
+        }
+        .province a {
+           color: #0275d8;
+           text-decoration: none;
+        }
+        .province img {
+           max-width: 100%;
+           height: auto;
+           border-radius: 5px;
+           display: block;
+           margin: 10px auto;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        h1 {
+            color: #006699;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .squirt a {
+            color: #
+            text-decoration:none;
+        }
+        .home-link {
+         padding: 10px 20px;
+         background-color: rgb(0,128,0);
+         color: white; 
+         text-decoration: none;
+         border-radius: 5px; /* Bo góc */
+        transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+        transform: rotate(0deg);
+        img {
+            max-width: 60%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .fa-facebook:hover{
+	opacity: 0.7;
+   }
+   .icon p{
+   text-align: left;
+   }
+   .icon a{
+   text-align:left;
+   }
+.  footer p{
+   text-align:center;
+   margin-top:10px;
+   }
+    </style>
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" placeholder="Đặc sản">
+        <a href="./index.html/" class="home-link">Trang Chủ</a>
+    </div>
+    <div class="content">
+        <h1>Trang web về Đặc sản Nha Trang</h1>
+    </div>
+    <div class="province">
+        <div class="menu navbar-collapse navbar-ex1-collapse collapse">
+            <div class="container ">
+                <ul class="nav navbar-nav main-menu">
+                    <li class="icon-home"><a href="/" title="Yen Sao Khanh Hoa"><img src="/images/home-icon.png"></a></li>
+                                            <li class="dropdown">
+                        <a href="/abouts/view/gioi-thieu-chung_20151225">Giới thiệu</a>                                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li>
+                                            <a href="/abouts/view/su-hinh-thanh-va-phat-trien_20151217">Sự hình thành và phát triển</a>                                    </li>
+                                <li>
+                                            <a href="/awards">Danh hiệu giải thưởng</a>                                    </li>
+                                <li>
+                                            <a href="/abouts/view/so-do-to-chuc_20151208">Sơ đồ tổ chức</a>                                    </li>
+                                <li>
+                                            <a href="/abouts/view/cac-don-vi-truc-thuoc_20151226">Các đơn vị trực thuộc</a>                                    </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class=" dropdown">
+                        <a href="/homes/thongtincongty">Tin tức</a>                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        <div class="dropdown-menu">
+                            <ul>
+                                                                    <li>
+
+                                            <a href="/new1s/index/tin-tuc-yen-sao-khanh-hoa">Tin tức Yến sào Khánh Hoà</a>
+                                </li>
+                                                                    <li>
+                                                                        <div class="image-menu-nochange">
+                                                                            <img src="https://yensaokhanhhoa.com.vn/img/Photos/thongtincongtymenu.png" alt="Menu"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li  class=" dropdown">
+                                                                    <a href="/Products">Sản phẩm</a>                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                                    <div class="dropdown-menu">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <ul>
+                                                                                    <li rel="/images/menuyennguyenchat.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/yen-dao-thien-nhien">Yến đảo thiên nhiên</a>                                                <ul>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/yen-dao-thien-nhien-nguyen-to">Yến đảo thiên nhiên nguyên tổ</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/yen-dao-thien-nhien-tinh-che">Yến đảo thiên nhiên tinh chế</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/tinh-chat-yen-sao-thien-nhien-khanh-hoa">Tinh chất Yến sào thiên nhiên Khánh Hòa</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li rel="/images/sanvinest-khanh-hoa.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/yen-sao-sanvinest-khanh-hoa">Yến sào Sanvinest Khánh Hòa</a>                                                <ul>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/tinh-chat-yen-sao-khanh-hoa-sanvinest">Tinh chất Yến sào Khánh Hòa Sanvinest</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/yen-sao-sanvinest-khanh-hoa-nguyen-to">Yến sào Sanvinest Khánh Hòa nguyên tổ</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/yen-sao-sanvinest-khanh-hoa-tinh-che">Yến sào Sanvinest Khánh Hòa tinh chế</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li rel="/images/menusanest.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/nuoc-giai-khat-sanest">Nước giải khát Sanest</a>                                                <ul>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-yen-sanest-lo">Nước yến Sanest lọ</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-yen-sanest-lon">Nước yến Sanest lon</a></li>
+                                                                                          
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li rel="/images/menusanest.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/nuoc-giai-khat-sanvinest">Nước giải khát Sanvinest</a>                                                <ul>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-yen-sanvinest-lo">Nước yến Sanvinest lọ</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-yen-sanvinest-lon">Nước yến Sanvinest lon</a></li>
+                                                                                           
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li rel="/images/menusanna.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/nuoc-giai-khat-sanna">Nước giải khát Sanna</a>                                                <ul>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-chanh-muoi-sanna">Nước chanh muối Sanna</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-chanh-day-sanna">Nước chanh dây Sanna</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-rong-bien-sanna">Nước rong biển Sanna</a></li>
+                                                                                         
+                                                                                            <li><a href="/yen-sao-khanh-hoa/nuoc-tinh-khiet-sanna">Nước tinh khiết chai</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                    <li rel="/images/menusanestfoods.png">
+                                                                                        <a href="/yen-sao-khanh-hoa/thuc-pham-sanestfoods">Thực phẩm Sanestfoods</a>                                                <ul>
+                                                                                            
+                                                                                          
+                                                                                            <li><a href="/yen-sao-khanh-hoa/sua-chua">Sữa chua</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/banh-yen-sao">Bánh Yến sào</a></li>
+                                                                                            <li><a href="/yen-sao-khanh-hoa/hat-dieu-chien">Hạt điều chiên</a></li>
+                                                                                        </ul>
+                                                                                    </li>
+                                                                                </ul>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div class="image-menu">
+                                                                            <img src="https://yensaokhanhhoa.com.vn/img/Photos/menu.png" alt="Menu"/>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                                <li class=" dropdown" >
+                                                                            <a href="https://muahang.yensaokhanhhoa.com.vn/" class="noibatmenu">Mua hàng ONLINE</a>                       </li>
+                                                                <li class="logo"><a href="/"><img src="/images/logo.png" alt="logo"/></a></li>
+                                                                <li class="right-logo  dropdown">
+                                        
+                                                                                                   <a href="/homes/thongtindinhduong">Bổ dưỡng</a>                        </li>
+                                                                 <li class="">
+                                                                                               <a href="/promotions">khuyến mãi</a>						</li>
+                                                                <li class="">
+                                                                                                   <a href="/hethongphanphois">HT PHÂN PHỐI</a>                       </li>
+                                                                
+                                                                <li  class=" dropdown">
+                                                                    <a href="/services">Dịch vụ</a>                                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                                                    <div class="dropdown-menu pull-right">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <ul>
+                                                                                    <!--div class="image-menu">
+                                    <img src="https://yensaokhanhhoa.com.vn/img/Photos/menu.png" alt="Menu"/>
+                                </div-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="internal-banner">
+    <div class="text-center">
+    </div>
+    <div class="main-content organizational">
+        <div class="modules-detail-prize">
+            <div class="container">
+                <div class="breadcrumb no-padding">
+                    <ul>
+                        <li><a href="/">Trang chủ ></a></li>
+                        <li><a>Sự hình thành và phát triển</a> </li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <h1>Sự hình thành và phát triển</h1>
+                        <div class="desc-info">
+                            <p class="bold-text">Năm 1970, Tổ hợp tự quản Yến sào Vĩnh Nguyên, Khánh Hòa được thành lập, công nhân nghề yến chính thức được quyền quản lý và khai thác yến sào. Năm 1976, Tổ hợp được nâng lên thành Hợp tác xã Yến sào Vĩnh Nguyên, ngành nghề yến sào được quan tâm phát triển ổn định. Năm 1987, Xí nghiệp quốc doanh Yến sào Nha Trang được thành lập, yến sào được xuất khẩu thu ngoại tệ, góp phần phát triển kinh tế địa phương.</p>    
+                        <img src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-6/400202809_743960794436828_8266652283281585826_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEVgPJQrsTyD3AlDev9MqrE90_GI09trl33T8YjT22uXQoIAGUWisKhL2MD0LMp-3mhUzeAfbZ1dZJUH2kWMe29&_nc_ohc=XyneqqvIp6EQ7kNvgHkI0ry&_nc_ht=scontent.fsgn2-10.fna&oh=00_AYDxpTZWc4SZKvAsTWWTjFGrzEryA0u_ZRRpnp_FQHkMRg&oe=6646224A" alt="Yến sào Khánh Hòa">
+                     <div id="footer" class="content-row">
+                        <div class="container">
+                            <h4 class="head-footer">TRANG THÔNG TIN CÔNG TY TNHH NHÀ NƯỚC MỘT THÀNH VIÊN YẾN SÀO KHÁNH HÒA</h4>
+                            <div class="infomation">
+                                <div class="row">
+                                    <div class="col-sm-2"></div>
+                                    <div class="col-sm-10">
+                                        <div class="item-info">
+                                            <p>Giấy phép thiết lập trang tin điện tử trên internet số: 15/GP-STTTT do Sở Thông tin và Truyền thông tỉnh Khánh Hòa cấp ngày 28/09/2020.</p>
+                                            <p>Chịu trách nhiệm nội dung Ông Nguyễn Anh Hùng - Chủ tịch Hội đồng thành viên</p>
+                                            <p>Địa chỉ: 248 Thống Nhất - Nha Trang - Khánh Hòa.&nbsp;&nbsp; |&nbsp;&nbsp; Điện thoại: 0258.3822472    -    Fax: 0258.3829267</p>
+                                            <p>Email: yensaokh@yensaokhanhhoa.com.vn</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="menu-footer">
+                                <ul>
+                                    <li><a href="/huongdanmuahang" title="Hướng dẫn mua hàng">Hướng dẫn mua hàng</a></li>
+                                    <li><a href="/chinhsachdoihang" title="Chính sách đổi hàng">Chính sách đổi hàng</a></li>
+                                    <li><a href="/phuongthucthanhtoan" title="Phương thức thanh toán">Phương thức thanh toán</a></li>
+                                    <li><a href="/phuongthucvanchuyen" title="Phương thức vận chuyển">Phương thức vận chuyển</a></li>
+                                    <li><a href="/chinhsachbaomat" title="Chính sách bảo mật">Chính sách bảo mật</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    </div>
+</body>
+</html>
